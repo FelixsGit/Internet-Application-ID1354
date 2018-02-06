@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2017, 1:58:37 PM
+    Author     : Felix
+*/
+
+/* Month header */
+.month {
+    padding: 20px 0px;
+    width: 100%;
+    background: #333;
+    text-align: center;
+    align-content: center;
+    color: #333;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-30) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    height: 250px;
+    margin-bottom: 5%;
+    padding-bottom: 50%;
+}
+
+.days li  {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:12px;
+    color:#777;
+}
+
+#Today{
+    background: yellow;
+}
+
+ul {list-style-type: none;}

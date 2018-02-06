@@ -1,0 +1,206 @@
+/*Defining Values*/
+h1{
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+li{
+    display: list-item;
+}
+
+ol{
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+p{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-left: 0; 
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+/* End of defining values*/
+
+/*Start of program*/
+
+body{
+   background-image: url("../Resources/BackGround.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center; 
+   font-family: 'Roboto Condensed';font-size: 15px;
+}
+
+.systemInfo{
+    color: greenyellow;
+    width: 150px;
+    margin-right: 0px;
+}
+
+
+.MiddleStripe{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding-top: 2%;
+    background-color: #F2F2F2;
+    margin-bottom: 5%;
+}
+
+.MenuStripe{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding-top: 2%;
+    background-color: #F2F2F2;
+    margin-bottom: 5%;
+}
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.Text{
+   text-align: center;
+}
+
+.Recipe{
+    text-align: center;
+}
+.ListDirections{
+    padding-left: 36%;
+    color: #333;
+    margin-right: 30%;
+}
+.ListIngrediens{
+    padding-left: 43%;
+    color: #333;
+    margin-right: 30%;
+}
+.normalHeader{
+    text-align: center;
+    color: #333; 
+}
+
+#name1{
+   margin-left: 40%;
+   
+}
+#name2{
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+#commentText1{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#commentText2{
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 5%;
+}
+
+.logo{
+    color: goldenrod;
+    margin-top: -2%;
+    text-align: center;
+}
+
+.welcomeLogo{
+    text-align: center;
+}
+
+.welcomeText{
+    margin: auto;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-bottom: 2%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav { 
+    margin-left: 31.8%;
+    margin-right: 31.8%;
+    position: fixed;
+    background-color: #333;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: -3%;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;  
+    max-width: 100%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+    
+
+
+
+
+
+
