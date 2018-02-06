@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 15, 2017, 4:33:57 PM
+    Author     : Felix
+*/
+
+.main-wrapper{
+    margin-left: 28%;
+    margin-right: 15%;
+    padding-bottom: 5%;
+}
+.nav-signup{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+textarea{
+    margin-left: 36.5%;
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    resize: none;
+    color: #333;
+}
+
+.commentButton{    
+    border: none;
+    color: #333;
+    cursor: pointer;
+    margin-left: 36.5%;
+    margin-bottom: 5%;
+    opacity: 0.7;
+}
+.commentButton:hover{    
+    border: none;
+    color: #333;
+    cursor: pointer;
+    margin-left: 36.5%;
+    margin-bottom: 5%;
+    opacity: 1;
+}
+
+.username{
+   color: #f2f2f2
+}
+.completedComments{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
+}
+
+.comment-box{
+    width: 280px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0.5%;
+    margin: auto;
+    margin-bottom: 4px;
+    border-style: solid;
+    border-color: #333;
+    position: relative;
+}
+
+.delete-form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.delete-form button{
+    border: none;
+    color: #333;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.delete-form button:hover{
+    border: none;
+    color: #333;
+    opacity: 1;
+}
+.form-errorsLogin{
+    color: red;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-bottom: 5%;
+        margin: auto;
+    text-align: center;
+}
+.form-errorsSignup{
+    color: red;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
