@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 15, 2017, 4:33:57 PM
+    Author     : Felix
+*/
+
+.main-wrapper{
+    margin-left: 28%;
+    margin-right: 15%;
+    padding-bottom: 5%;
+}
+.nav-signup{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+textarea{
+    margin-left: 36.5%;
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    resize: none;
+    color: #333;
+}
+
+.commentButton{    
+    border: none;
+    color: #333;
+    cursor: pointer;
+    margin-left: 36.5%;
+    margin-bottom: 5%;
+    opacity: 0.7;
+}
+.commentButton:hover{    
+    border: none;
+    color: #333;
+    cursor: pointer;
+    margin-left: 36.5%;
+    margin-bottom: 5%;
+    opacity: 1;
+}
+
+.deletecommentButton{
+    border: none;
+    color: #333;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.deletecommentButton:hover{    
+    border: none;
+    color: #333;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.username{
+   color: #f2f2f2
+}
+.completedComments{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 5%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.form-errorsLogin{
+    color: red;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-bottom: 5%;
+        margin: auto;
+    text-align: center;
+}
+.form-errorsSignup{
+    color: red;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
